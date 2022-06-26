@@ -2,7 +2,6 @@
   "name": "reacthtml",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bella-s-w.github.io/SEG3125_Project_02/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

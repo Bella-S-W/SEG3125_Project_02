@@ -17,10 +17,10 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-            <Route exact path ="/" element={<Home/>}/>
-            <Route path="/Family_card" element={<Family_card/>}/>
-            <Route path="/Discussion_page" element={<Discussion_page/>}/>
-            <Route path="/Subscribe_plan" element={<Subscribe_plan/>}/>
+            <Route exact path ="/SEG3125_Project_02" element={<Home/>}/>
+            <Route path="/SEG3125_Project_02/Family_card" element={<Family_card/>}/>
+            <Route path="/SEG3125_Project_02/Discussion_page" element={<Discussion_page/>}/>
+            <Route path="/SEG3125_Project_02/Subscribe_plan" element={<Subscribe_plan/>}/>
         </Routes>
       </Router>
     </div>
