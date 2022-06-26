@@ -1,7 +1,6 @@
-import {React} from 'react';
-import { Component } from 'react';
-import {ChatBot} from 'react-simple-chatbot';
-import { ReactDOM } from 'react';
+import React from 'react';
+import ChatBot from 'react-simple-chatbot';
+
 // all available config props
 const config ={
   width: "400px",
@@ -10,7 +9,6 @@ const config ={
 };
 
 const theme = {
-  background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
   headerBgColor: '#EF6C00',
   headerFontColor: '#fff',
@@ -21,9 +19,8 @@ const theme = {
   userFontColor: '#4a4a4a',
 };
 
-class SimpleForm extends Component {
-  render() {
-    return (
+function SimpleForm() {
+    return (<div>
       <ChatBot 
         steps={[
           {
@@ -67,15 +64,8 @@ class SimpleForm extends Component {
         ]}
         {...config}
       />
-        
+      </div>
         );
       }
 
-    }
-
-    export default SimpleForm;
-
-const simpleForm = e(SimpleForm);
-
-const root = ReactDOM.createRoot(document.getElementByID('chatbot'));
-root.render(e(simpleForm));
+export default SimpleForm;
