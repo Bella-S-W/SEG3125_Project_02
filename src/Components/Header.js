@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const logo = require("../images/logo.png");
 
 class Header extends React.Component {
@@ -14,16 +14,22 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
+                <Link to="/">
                   <a className="nav-link" href="\">HOME</a>
+                  </Link>
                 </li>
                 <li className="nav-item">
+                  <Link to="/Family_card">
                   <a className="nav-link" href="Family_card">FAMILY</a>
+                  </Link>
                 </li>
-              <li className="nav-item">
-                <a className="nav-link" href="Subscribe_plan">SUBSCRIBE</a>
+              <li className="nav-item"><Link to="/Subscribe_plan">
+                <a className="nav-link" href="Subscribe_plan">SUBSCRIBE</a></Link>
               </li>
                 <li className="nav-item">
+                  <Link to="/Subscribe_plan">
                   <a className="nav-link" href="Discussion_page">DISCUSSION</a>
+                  </Link>
               </li>
             </ul>
           </div>

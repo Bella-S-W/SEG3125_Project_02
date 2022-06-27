@@ -5,16 +5,15 @@ import Header from './Components/Header';
 import Family_card from './Pages/Family_card';
 import Discussion_page from './Pages/Discussion_page';
 import Subscribe_plan from './Pages/Subscribe_plan';
-import SimpleForm from './Components/chatbot/SimpleForm';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes,Route} from "react-router-dom";;
 
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/">
         <Header/>
         <Routes>
             <Route exact path ="/" element={<Home/>}/>
