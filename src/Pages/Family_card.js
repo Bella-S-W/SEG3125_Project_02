@@ -66,6 +66,9 @@ class Family_card extends React.Component{
             <h5>Unbowed, Unbent, Unbroken.</h5>
             <a href="#" className="btn btn-secondary">LEARN MORE</a>
           </div>
+          <div className="row align-items-center services">
+            <a href="#" className="btn btn-secondary">Customize your own family card</a>
+          </div>
           </div>
         </div>
       </section>)

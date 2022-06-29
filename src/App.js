@@ -5,6 +5,8 @@ import Header from './Components/Header';
 import Family_card from './Pages/Family_card';
 import Discussion_page from './Pages/Discussion_page';
 import Subscribe_plan from './Pages/Subscribe_plan';
+import Support_page from './Pages/Support_page';
+import Footer from './Components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css';
@@ -20,7 +22,9 @@ function App() {
             <Route path="/Family_card" element={<Family_card/>}/>
             <Route path="/Discussion_page" element={<Discussion_page/>}/>
             <Route path="/Subscribe_plan" element={<Subscribe_plan/>}/>
+            <Route path="/Support_page" element={<Support_page/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

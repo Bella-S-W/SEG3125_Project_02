@@ -27,10 +27,15 @@ class Header extends React.Component {
                 <a className="nav-link" href="Subscribe_plan">SUBSCRIBE</a></Link>
               </li>
                 <li className="nav-item">
-                  <Link to="/Subscribe_plan">
-                  <a className="nav-link" href="Discussion_page">DISCUSSION</a>
+                  <Link to="/Discussion_page">
+                  <a className="nav-link" href="Discussion_page">COMMENTS</a>
                   </Link>
               </li>
+              <li className="nav-item">
+                  <Link to="/Support_page">
+                  <a className="nav-link" href="Support_page">SUPPORT</a>
+                  </Link>
+                </li>
             </ul>
           </div>
         </div>
